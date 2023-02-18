@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <div class="search-left">
+                    <button class="icon"><img src="material/search-bar/search.svg" alt="Search-Icon"></button>
+                    <input type="search" id="search-bar">
+                </div>
+                <div class="search-right">
+                    <button class="icon"><img src="material/search-bar/notifications.svg" alt="notification-bell"></button>
+                    <img src="material/search-bar/profile.png" alt="profile-picture" id="profile-picture">
+                    <div id="user-name">User Name</div>
+                </div>
+            </div>
+            <div class="nav">
+            <div class="nav-left">
+                <img src="material/search-bar/profile.png" alt="profile-picture" id="nav-profile-picture">
+                <div class="greeting">
+                    <p>Hi there,</p>
+                    <p id="nav-user-name">user-name (@user-name)</p>
+                </div>
+            </div>
+            <div class="nav-right">
+                <button id="new-button">New</button>
+                <button id="upload-button">Upload</button>
+                <button id="share-button">Share</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="articles">
+            <h4 class="projects-header">Your Projects</h4>
+            <div class="projects-container">
+                <div class="projects">
+                    <h5>project 1</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas, ipsam pariatur laborum est optio eaque rem vitae molestiae facere veniam, sit dicta error voluptas? Reprehenderit nulla aliquid quidem natus?</p>
+                </div>
+                <div class="projects">
+                    <h5>project 2</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt at quia nisi dolores, hic explicabo nesciunt amet atque harum molestiae error rem minus. Cumque, velit! Veritatis dolorem alias tempore libero!</p>
+                </div>
+                <div class="projects">
+                    <h5>project 3</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae esse totam quas maiores mollitia necessitatibus tempora consequuntur, quis cupiditate quo vitae modi et molestias deleniti cumque odit, pariatur harum.</p>
+                </div>
+                <div class="projects">
+                    <h5>project 4</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae esse totam quas maiores mollitia necessitatibus tempora consequuntur, quis cupiditate quo vitae modi et molestias deleniti cumque odit, pariatur harum.</p>
+                </div>
+                <div class="projects">
+                    <h5>project 5</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae esse totam quas maiores mollitia necessitatibus tempora consequuntur, quis cupiditate quo vitae modi et molestias deleniti cumque odit, pariatur harum.</p>
+                </div>
+                <div class="projects">
+                    <h5>project 6</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae esse totam quas maiores mollitia necessitatibus tempora consequuntur, quis cupiditate quo vitae modi et molestias deleniti cumque odit, pariatur harum.</p>
+                </div>
+            </div>
+            <h4 class="trending-header">Trending</h4>
+            <div class="trending-container">
+                <h3>Announcements</h3>
+                <div class="announcements">
+                    <div>Something interesting</div>
+                    <div>Something else thats interesting</div>
+                    <div>Hey look this dashboard is new!</div>
+                </div>
+                <h3>Trending</h3>
+                <div class="trending">
+                    <div class="user">
+                        <img src="material/search-bar/profile.png" alt="profile-picture">
+                        <h3>user-name</h3>
+                    </div>
+                    <div class="user">
+                        <img src="material/search-bar/profile.png" alt="profile-picture">
+                        <h3>user-name</h3>
+                    </div>
+                    <div class="user">
+                        <img src="material/search-bar/profile.png" alt="profile-picture">
+                        <h3>user-name</h3>
+                    </div>
+                    <div class="user last">
+                        <img src="material/search-bar/profile.png" alt="profile-picture">
+                        <h3>user-name</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <img src="material/gradation-m-letter-logo-design/21.jpg" alt="logo" id="logo">
+            <h2 class="side-bar-header">Dashboard</h2>
+            <div class="side-icons">
+                <img src="material/side-bar/home.svg" alt="home">
+                <img src="material/side-bar/profile.svg" alt="profile">
+                <img src="material/side-bar/messages.svg" alt="messages">
+                <img src="material/side-bar/history.svg" alt="History">
+                <img src="material/side-bar/tasks.svg" alt="tasks">
+                <img src="material/side-bar/community.svg" alt="communities">
+            </div>
+            <div class="side-bar-links">
+                <h4><a href="#">Home</a></h4>
+                <h4><a href="#">Profile</a></h4>
+                <h4><a href="#">Messages</a></h4>
+                <h4><a href="#">History</a></h4>
+                <h4><a href="#">Tasks</a></h4>
+                <h4><a href="#">Communities</a></h4>
+            </div>
+            <div class="side-icons">
+                <img src="material/side-bar/settings.svg" alt="Settings">
+                <img src="material/side-bar/support.svg" alt="Support">
+                <img src="material/side-bar/privacy.svg" alt="Privacy">
+            </div>
+            <div class="side-bar-links">
+                <h4><a href="#">Settings</a></h4>
+                <h4><a href="#">Support</a></h4>
+                <h4><a href="#">Privacy</a></h4>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
